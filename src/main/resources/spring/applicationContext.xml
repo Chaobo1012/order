@@ -16,6 +16,7 @@
 	 	<property name="username" value="root" />
         <property name="password" value="123456" />
 	</bean>
+    <!-- 只是为了搞定commitsssss -->
 
 	<!-- 数据会话工厂：映射模型包-->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
