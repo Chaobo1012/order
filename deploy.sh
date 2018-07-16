@@ -37,6 +37,7 @@ cp $PROJ_PATH/order/target/order.war $TOMCAT_APP_PATH/webapps/
 cd $TOMCAT_APP_PATH/webapps/
 mv order.war ROOT.war
 
+sleep 2s
 # 启动Tomcat
 cd $TOMCAT_APP_PATH/
 sh bin/startup.sh
